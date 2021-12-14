@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar{
+    display:flex;
+    background-color:#000;
+    color: white;
+    justify-content: center;
+    
+}
+
+.navbar-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:    20px 0;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+
+.navbar-container ul{
+    display:flex;
+    list-style: none;
+    font-weight: bold ;
+}
+
+.navbar-container ul li{
+    padding: 0 20px;
+}
+
+.navbar-container ul li:nth-child(3){
+    border-right: 1px solid white;
+}
+
+
+
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #202f72;;
+    background: url(img/listentomusic.jpeg) center center/cover;
+}
+
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+}
