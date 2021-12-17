@@ -47,15 +47,66 @@ body{
 
 
 #showcase{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+    max-width: 100%;
+    width: auto;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #202f72;;
-    background: url(img/listentomusic.jpeg) center center/cover;
+    background-color: rgb(150, 240, 182);
+    letter-spacing: 0.25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 480px;
+    background-image: url(img/);
 }
 
 .showcase-container{
-    display: flex;
+    display: inline-block;
     flex-direction: column;
+    
+}
+
+
+.btn-primary{
+    position: relative;
+    background-color: var(--background-base,#1ed760);
+    color: var(--text-base,#000000);
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 14px 32px;
+    display: block;
+    --background-base: #202F72 !important;
+    --background-highlight: #1A275E !important;
+    --background-press: #151F4A !important;
+    --background-elevated-base: #202F72 !important;
+    --background-elevated-highlight: #1A275E !important;
+    --background-elevated-press: #151F4A !important;
+    --background-tinted-base: #202F72 !important;
+    --background-tinted-highlight: #1A275E !important;
+    --background-tinted-press: #151F4A !important;
+    --background-unsafe-for-small-text-base: #202F72 !important;
+    --background-unsafe-for-small-text-highlight: #1A275E !important;
+    --background-unsafe-for-small-text-press: #151F4A !important;
+    --text-base: #96F0B6 !important;
+    --text-subdued: #96F0B6 !important;
+    --text-bright-accent: #96F0B6 !important;
+    --text-negative: #96F0B6 !important;
+    --text-warning: #96F0B6 !important;
+    --text-positive: #96F0B6 !important;
+    --text-announcement: #96F0B6 !important;
+    --essential-base: #96F0B6 !important;
+    --essential-subdued: #96F0B6 !important;
+    --essential-bright-accent: #96F0B6 !important;
+    --essential-negative: #96F0B6 !important;
+    --essential-warning: #96F0B6 !important;
+    --essential-positive: #96F0B6 !important;
+    --essential-announcement: #96F0B6 !important;
+    --decorative-base: #96F0B6 !important;
+    --decorative-subdued: #96F0B6 !important;
+
 }
